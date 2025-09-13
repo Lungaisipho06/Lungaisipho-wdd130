@@ -1,103 +1,39 @@
-# Lungaisipho-wdd130
-WWd130 coursework repository for lungaisipho
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Home Page</title>
-  <meta name="description" content="Home page of Isipho, WDD130 student. Purpose: demonstrate HTML, CSS, and web development skills.">
-  <meta name="author" content="Isipho">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunga Isipho Mpho | WDD 130</title>
+
+    <!-- New meta tags -->
+    <meta name="description" content="Lunga Isipho Mpho | WDD 130 Home Page. A personal website project for web development class, showcasing HTML, CSS, and learning progress.">
+    <meta name="author" content="Lunga Isipho Mpho">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Home Page</h1>
-  </header>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="wwr/">Rafting Website</a>
+        </nav>
+    </header>
 
-  <main>
-    <h2>About Me</h2>
-    <img src="images/profile.jpg" alt="Profile picture of Isipho">
-    <p>This is my home page for WDD130. Here I will showcase my learning progress and assignments.</p>
-  </main>
+    <main>
+        <h1>Welcome to My Home Page</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA01q0o-Nk1vw1tXDaYUG33DnWteO7sJF0vg&s" alt="Profile picture of Lunga" >
+        <p>Hello! My name is Lunga Isipho Mpho. This is my home page for WDD 130, where I am learning the basics of coding. I look forward to building more projects as I improve my web development and coding skills. I love being with family and playing and watching soccer, i also am a fan of sports over all</p>
+    </main>
 
-  <aside>
-    <h2>South Africa</h2>
-    <img src="images/south-africa.jpg" alt="Table Mountain in Cape Town, South Africa">
-    <p>South Africa is known for its diverse culture, beautiful landscapes, and rich history. It is home to iconic landmarks like Table Mountain and Kruger National Park.</p>
-  </aside>
+    <!-- New aside section -->
+    <aside>
+        <h2>South Africa</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cape_Town_City_%28cropped%29.jpg/330px-Cape_Town_City_%28cropped%29.jpg" alt="A scenic view representing South Africa">
+        <p>South Africa is a diverse and vibrant country known for its beautiful landscapes, wildlife, and rich cultural heritage. It is home to Table Mountain, Kruger National Park, and eleven official languages.</p>
+    </aside>
 
-  <footer>
-    <p>&copy; 2025 Isipho | WDD130</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 | Lunga Isipho Mpho | WDD 130</p>
+    </footer>
 </body>
 </html>
-/* General Page Styling */
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #fafafa;
-  color: #222;
-}
-
-/* Header */
-header {
-  background-color: #004d40;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-}
-
-/* Main Content */
-main {
-  max-width: 800px;
-  margin: 20px auto;
-  padding: 15px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-main img {
-  width: 150px;
-  height: auto;
-  display: block;
-  margin: 10px auto;
-  border-radius: 50%;
-}
-
-/* Aside Section */
-aside {
-  width: 300px;
-  margin: 20px auto;
-  border: 1px solid #ccc;
-  padding: 15px;
-  background-color: #f5f5f5;
-  color: #333;
-  border-radius: 8px;
-  text-align: center;
-}
-
-aside img {
-  width: 200px;
-  height: auto;
-  display: block;
-  margin: 10px auto;
-  border-radius: 6px;
-}
-
-/* Paragraph reset */
-p {
-  padding: 0;
-}
-
-/* Footer */
-footer {
-  margin-top: 30px;
-  border-top: 2px solid #ccc;
-  text-align: center;
-  padding: 15px;
-  background-color: #eee;
-}
