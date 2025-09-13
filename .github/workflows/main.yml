@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Home Page</title>
+  <meta name="description" content="Home page of Isipho, WDD130 student. Purpose: demonstrate HTML, CSS, and web development skills.">
+  <meta name="author" content="Isipho">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Home Page</h1>
+  </header>
+
+  <main>
+    <h2>About Me</h2>
+    <img src="images/profile.jpg" alt="Profile picture of Isipho">
+    <p>This is my home page for WDD130. Here I will showcase my learning progress and assignments.</p>
+  </main>
+
+  <aside>
+    <h2>South Africa</h2>
+    <img src="images/south-africa.jpg" alt="Table Mountain in Cape Town, South Africa">
+    <p>South Africa is known for its diverse culture, beautiful landscapes, and rich history. It is home to iconic landmarks like Table Mountain and Kruger National Park.</p>
+  </aside>
+
+  <footer>
+    <p>&copy; 2025 Isipho | WDD130</p>
+  </footer>
+</body>
+</html>
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #222;
+}
+
+/* Header */
+header {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+main img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+/* Aside Section */
+aside {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f5f5f5;
+  color: #333;
+  border-radius: 8px;
+  text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border-radius: 6px;
+}
+
+/* Paragraph reset */
+p {
+  padding: 0;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  border-top: 2px solid #ccc;
+  text-align: center;
+  padding: 15px;
+  background-color: #eee;
+}
